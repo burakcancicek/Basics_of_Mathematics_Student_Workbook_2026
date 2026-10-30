@@ -1,0 +1,310 @@
+{
+  "0": {
+    "1": {
+      "tr": "Sayıları apartmandaki daireler gibi düşün. Önce katı (satır), sonra kapıyı (sütun) seç. Sayıyı buldun!",
+      "en": "Think of numbers as apartments: first choose the floor (row), then the door (column).",
+      "pl": "Liczby są jak mieszkania: najpierw wybierz piętro (wiersz), potem drzwi (kolumnę)."
+    },
+    "2": {
+      "tr": "İki yumurta kutusu düşün. Aynı yerdeki yumurtaları yan yana koy: 1 ile 4, 5 eder. Çıkarmada ikinci kutudan alırsın.",
+      "en": "Imagine two egg cartons. Add the numbers in matching spots; for subtraction, take the second away.",
+      "pl": "Wyobraź sobie dwa pudełka jajek. Dodaj liczby z tych samych miejsc; przy odejmowaniu zabierz drugą."
+    },
+    "3": {
+      "tr": "İki oyuncak trenin vagonlarını bağlayacağız. Birincinin çıkışı ile ikincinin girişi aynı sayıda olmalı. Yoksa bağlanmaz!",
+      "en": "Two toy trains connect only if their matching ends have the same number of slots.",
+      "pl": "Dwa pociągi-zabawki połączysz tylko wtedy, gdy pasuje liczba zaczepów."
+    },
+    "4": {
+      "tr": "Önce ayakkabını giyip sonra çorap giymek, önce çorap sonra ayakkabı giymekle aynı değil. Matris çarpmada sıra da önemlidir.",
+      "en": "Socks then shoes is not the same as shoes then socks. Matrix multiplication order can matter.",
+      "pl": "Skarpetki, potem buty to nie to samo co buty, potem skarpetki. Kolejność mnożenia macierzy ma znaczenie."
+    },
+    "5": {
+      "tr": "Bir ok sana sağa, başka bir ok yukarı git diyor. Her okun hareketini say, sonra hepsini birleştir.",
+      "en": "Each arrow tells you how to move. Count each movement, then combine them.",
+      "pl": "Każda strzałka mówi, jak się ruszyć. Policz ruchy i połącz je."
+    },
+    "6": {
+      "tr": "Sayı tablosunu yan çevir: yatay sıralar dikey olur. İki tabloyu çarpıp çevirince sıranın da tersine döndüğünü görürsün.",
+      "en": "Turn a number table sideways: rows become columns. When turning a product, reverse the order.",
+      "pl": "Obróć tabelkę liczb: wiersze stają się kolumnami. Przy obrocie iloczynu odwróć kolejność."
+    },
+    "7": {
+      "tr": "Bir sihirli kutu sayıları hiç değiştirmiyor: bu birim matris. Bir de hep sıfır ekleyen kutu var: toplamı değiştirmiyor.",
+      "en": "One magic box leaves numbers unchanged when multiplying: the identity matrix. Adding zeros changes nothing.",
+      "pl": "Magiczne pudełko nie zmienia liczb przy mnożeniu: to macierz jednostkowa. Dodawanie zer nic nie zmienia."
+    },
+    "8": {
+      "tr": "Bir sayı tablosundaki satırları yer değiştirebilir, bir satıra diğerinden ekleyebilirsin. Her küçük hareketi sırayla izle.",
+      "en": "You can swap rows or add one row to another. Follow each tiny change in order.",
+      "pl": "Możesz zamienić wiersze lub dodać jeden do drugiego. Śledź każdy mały krok."
+    },
+    "9": {
+      "tr": "Önce oyuncağı büyütüp sonra döndürmek, önce döndürüp sonra büyütmekle farklı sonuç verebilir.",
+      "en": "Growing a toy then turning it can differ from turning it then growing it.",
+      "pl": "Powiększenie zabawki, a potem obrót może dać inny wynik niż odwrotna kolejność."
+    },
+    "10": {
+      "tr": "Bir matrisin sütunlarını ayrı ayrı küçük oklar gibi düşün. Her oku ilk matristen geçir, sonra sonuçları yan yana koy.",
+      "en": "Treat each column like a small arrow. Transform each arrow, then place the results side by side.",
+      "pl": "Każda kolumna to mała strzałka. Przekształć każdą i ustaw wyniki obok siebie."
+    },
+    "11": {
+      "tr": "İki oyuncağı hangi sırayla çalıştırırsan çalıştır aynı sonuç çıkıyorsa bunlar anlaşan arkadaşlar gibidir.",
+      "en": "If two machines give the same result in either order, they are like friends who cooperate.",
+      "pl": "Jeśli dwie maszyny dają ten sam wynik w obu kolejnościach, dobrze ze sobą współpracują."
+    },
+    "12": {
+      "tr": "Bir merdivenin ilk basamağını kontrol et. Sonra her basamaktan bir sonrakine çıkabildiğini göster. Böylece hepsine çıkarsın.",
+      "en": "Check the first stair, then prove you can always reach the next stair. That is induction.",
+      "pl": "Sprawdź pierwszy schodek, a potem pokaż, że zawsze wejdziesz na następny. To indukcja."
+    },
+    "13": {
+      "tr": "Tavşan ailesini say: yeni sayı önceki iki sayının toplamı. Matris bu toplama oyununu hızla tekrarlar.",
+      "en": "Count a rabbit family: each new number is the sum of the previous two. A matrix repeats that rule.",
+      "pl": "Licz rodzinę królików: nowa liczba to suma dwóch poprzednich. Macierz powtarza tę zasadę."
+    },
+    "14": {
+      "tr": "Bir oku önce biraz, sonra biraz daha döndür. Sonunda iki dönüşün açılarını toplamış gibi olur.",
+      "en": "Turn an arrow once and then again. Together the turns add their angles.",
+      "pl": "Obróć strzałkę raz, a potem drugi raz. Łącznie kąty obrotu się dodają."
+    },
+    "15": {
+      "tr": "Üç kutuyu sırayla çarpıyorsun. Önce ilk ikisini veya son ikisini birleştirebilirsin; sıra aynı kaldığı sürece sonuç aynı.",
+      "en": "With three boxes, you may group the first two or last two, while keeping their order.",
+      "pl": "Przy trzech pudełkach możesz najpierw połączyć pierwsze dwa lub ostatnie dwa, zachowując kolejność."
+    }
+  },
+  "7": {
+    "1": {
+      "tr": "Bir sayı dizisini ileri doğru say. Sayılar gitgide 2’ye yaklaşıyorsa limit 2’dir.",
+      "en": "Watch a number list as it goes on. If it gets closer and closer to 2, the limit is 2.",
+      "pl": "Obserwuj ciąg liczb. Jeśli coraz bardziej zbliża się do 2, granica wynosi 2."
+    },
+    "2": {
+      "tr": "Büyük sayılarda en hızlı büyüyen parça yarışı kazanır. Üstteki daha yavaşsa kesir küçülür.",
+      "en": "For huge numbers, the fastest-growing part wins. If the top grows slower, the fraction shrinks.",
+      "pl": "Dla wielkich liczb wygrywa najszybciej rosnąca część. Gdy licznik rośnie wolniej, ułamek maleje."
+    },
+    "3": {
+      "tr": "Karekökü zor görünce eşini kullanıp işlemi sadeleştiriyoruz; sanki karışık bir düğümü çözüyoruz.",
+      "en": "When a square root looks tricky, use its matching partner to untie the expression.",
+      "pl": "Gdy pierwiastek przeszkadza, użyj jego pary, by uprościć wyrażenie."
+    },
+    "4": {
+      "tr": "Bir sayıyı tekrar tekrar kendisiyle çarp. 1’den küçükse minicik olur; 1’den büyükse büyür.",
+      "en": "Multiply the same number again and again. Below 1 it shrinks; above 1 it grows.",
+      "pl": "Mnożysz liczbę przez siebie wiele razy. Mniejsza od 1 maleje, większa od 1 rośnie."
+    },
+    "5": {
+      "tr": "Bir sayıyı giderek daha çok kez çarpıyoruz. Sonuç özel bir sayı olan e’ye yaklaşıyor.",
+      "en": "Multiply more and more factors of a special form. The result approaches a special number called e.",
+      "pl": "Mnożymy coraz więcej specjalnych czynników. Wynik zbliża się do liczby e."
+    },
+    "6": {
+      "tr": "x çok büyüyünce küçük parçalar önemsizleşir. En büyük kuvvetli parçaları karşılaştır.",
+      "en": "As x gets huge, tiny terms matter less. Compare the biggest powers.",
+      "pl": "Gdy x jest ogromne, małe składniki znaczą mniej. Porównaj największe potęgi."
+    },
+    "7": {
+      "tr": "Bir çizgide minicik bir delik olabilir. Çizgi deliğe iki yandan aynı yüksekliğe geliyorsa limit vardır.",
+      "en": "A graph can have a tiny hole. If both sides approach the same height, it still has a limit.",
+      "pl": "Wykres może mieć dziurkę. Jeśli z obu stron zbliża się do tej samej wysokości, ma granicę."
+    },
+    "8": {
+      "tr": "Karekökü eşleniğiyle çarpınca zor kesir sadeleşir. Sonra yaklaştığımız sayıyı yerine koyarız.",
+      "en": "Multiply by the square root’s partner to simplify, then approach the target number.",
+      "pl": "Pomnóż przez wyrażenie sprzężone, uprość i zbliżaj się do wskazanej liczby."
+    },
+    "9": {
+      "tr": "Bir duvara yaklaşırken çizgi yukarı ya da aşağı sonsuza kaçabilir. Hangi taraftan geldiğine bak.",
+      "en": "Near a vertical wall, the graph may shoot up or down. Check which side you approach from.",
+      "pl": "Przy pionowej ścianie wykres może uciekać w górę lub w dół. Sprawdź stronę podejścia."
+    },
+    "10": {
+      "tr": "İki yolun birleştiği yerde zıplama olmasın istiyoruz. Soldan ve sağdan aynı yüksekliğe gelmeliler.",
+      "en": "At the join of two paths, we do not want a jump. Both sides must meet at one height.",
+      "pl": "Na połączeniu dwóch dróg nie chcemy skoku. Obie strony muszą dojść do tej samej wysokości."
+    },
+    "11": {
+      "tr": "İki çok büyük sayı yarışıyor. Hangisi daha hızlı büyüyorsa toplamın sonucunu o belirler.",
+      "en": "Two huge growing numbers race. The faster one decides how the whole expression behaves.",
+      "pl": "Dwie wielkie liczby się ścigają. Szybsza decyduje o zachowaniu całości."
+    },
+    "12": {
+      "tr": "Çok küçük adımların çok kez tekrarı özel e sayısını verir. Burada adımlar üç kat hızlıdır.",
+      "en": "Many tiny repeated steps lead to the special number e; here the steps are scaled by three.",
+      "pl": "Wiele małych powtarzanych kroków prowadzi do liczby e; tutaj krok jest trzy razy większy."
+    },
+    "13": {
+      "tr": "Çok küçük açılarda sinüs neredeyse açının kendisi gibidir. Bu benzerliği kullanıyoruz.",
+      "en": "For a tiny angle, sine behaves almost like the angle itself. Use that closeness.",
+      "pl": "Dla malutkiego kąta sinus jest prawie równy samemu kątowi. Wykorzystaj to."
+    },
+    "14": {
+      "tr": "Bir açı küçücük olunca 1 ile kosinüs arasındaki fark da küçülür. Küçülme hızını karşılaştırıyoruz.",
+      "en": "For a tiny angle, 1 minus cosine becomes tiny too. We compare how quickly it shrinks.",
+      "pl": "Dla małego kąta 1 minus cosinus też maleje. Porównujemy tempo tego zmniejszania."
+    },
+    "15": {
+      "tr": "Bir çizimi birkaç noktadan izlemek filmden birkaç kare görmek gibidir. Tahmin edersin ama bütün filmi kanıtlamaz.",
+      "en": "A few graph samples are like a few frames from a movie: useful clues, not proof of the whole story.",
+      "pl": "Kilka punktów wykresu to jak kilka klatek filmu: podpowiedź, ale nie dowód całości."
+    }
+  },
+  "4": {
+    "1": {
+      "tr": "Oklar yürüyüş tarifidir: sağa, sola, yukarı, aşağı. Aynı yönlerdeki adımları topla veya çıkar.",
+      "en": "Arrows are walking directions. Add or subtract steps in each direction.",
+      "pl": "Strzałki pokazują drogę. Dodaj lub odejmij kroki w każdym kierunku."
+    },
+    "2": {
+      "tr": "A noktasından B noktasına yürü. Kaç adım sağa ve yukarı gittiğini bul. Yolun düz uzunluğu mesafedir.",
+      "en": "Walk from A to B. Count horizontal and vertical steps; the straight shortcut is the distance.",
+      "pl": "Idź z A do B. Policz kroki w poziomie i pionie; prosta droga to odległość."
+    },
+    "3": {
+      "tr": "Uzun oku küçültüp boyunu tam 1 yapıyoruz. Yönü aynı kalıyor; sadece daha kısa oluyor.",
+      "en": "Shrink a long arrow until its length is exactly 1. Its direction stays the same.",
+      "pl": "Skróć długą strzałkę do długości 1. Kierunek pozostaje taki sam."
+    },
+    "4": {
+      "tr": "İki okun birbirine dik olup olmadığını anlamak için küçük sayı çarpımlarını topla. Sonuç sıfırsa dikler.",
+      "en": "To check if two arrows meet at a right angle, add their coordinate products. Zero means perpendicular.",
+      "pl": "Aby sprawdzić kąt prosty między strzałkami, dodaj iloczyny współrzędnych. Zero oznacza prostopadłość."
+    },
+    "5": {
+      "tr": "İki okun arasındaki açıklık bir makas gibi. Sayıları kullanarak makasın ne kadar açık olduğunu buluyoruz.",
+      "en": "Two arrows open like scissors. Their numbers tell us how wide the angle is.",
+      "pl": "Dwie strzałki otwierają się jak nożyczki. Liczby mówią, jak duży jest kąt."
+    },
+    "6": {
+      "tr": "El feneriyle bir oku başka bir okun üzerine gölge yap. O gölgenin uzunluğu izdüşümdür.",
+      "en": "Shine a flashlight so one arrow casts a shadow onto another. That shadow is the projection.",
+      "pl": "Poświeć latarką: cień jednej strzałki na drugiej to rzut."
+    },
+    "7": {
+      "tr": "Bir ok diğerinin tam iki katıysa yeni bir yön göstermiyor. İkisi aynı çizgide yürür.",
+      "en": "If one arrow is twice another, it does not point in a new direction.",
+      "pl": "Jeśli jedna strzałka jest dwa razy dłuższa od drugiej w tym samym kierunku, nie daje nowego kierunku."
+    },
+    "8": {
+      "tr": "İki okla hedefe ulaşmak için birinden kaç tane, diğerinden kaç tane gerektiğini buluyoruz.",
+      "en": "Find how many copies of each of two arrows you need to reach the target.",
+      "pl": "Sprawdź, ile kopii każdej z dwóch strzałek potrzeba, by dojść do celu."
+    },
+    "9": {
+      "tr": "İki okun ikisine de dik duran üçüncü bir ok düşün. Çapraz çarpım bu üçüncü oku bulur.",
+      "en": "Imagine a third arrow standing at right angles to both arrows. The cross product finds it.",
+      "pl": "Wyobraź sobie trzecią strzałkę prostopadłą do obu. Iloczyn wektorowy ją znajduje."
+    },
+    "10": {
+      "tr": "İki çubukla eğik bir masa çerçevesi yap. Aralarındaki alanı üçüncü, dik okun boyu verir.",
+      "en": "Make a tilted table frame with two sticks. The cross-product arrow length gives its area.",
+      "pl": "Z dwóch patyczków zrób ukośną ramkę. Długość iloczynu wektorowego daje jej pole."
+    },
+    "11": {
+      "tr": "Bir oku iki parçaya ayır: biri yol boyunca gidiyor, diğeri yan tarafa sapıyor.",
+      "en": "Split an arrow into two: one goes along the path, the other goes sideways.",
+      "pl": "Podziel strzałkę na dwie: jedną wzdłuż drogi, drugą w bok."
+    },
+    "12": {
+      "tr": "Üç noktayla düz bir kağıt tut. Kağıdın üstüne dik çıkan bir ok, düzlemin normalidir.",
+      "en": "Hold a flat sheet through three points. An arrow standing straight up is its normal.",
+      "pl": "Przez trzy punkty połóż kartkę. Strzałka prostopadła do niej to normalna."
+    },
+    "13": {
+      "tr": "Dört noktanın aynı kağıda sığıp sığmadığını kontrol ediyoruz. Son nokta kağıttan yukarı çıkıyorsa sığmaz.",
+      "en": "Check if four dots fit on one flat sheet. A dot floating above it does not fit.",
+      "pl": "Sprawdź, czy cztery punkty leżą na jednej kartce. Punkt nad kartką nie pasuje."
+    },
+    "14": {
+      "tr": "Bir noktadan doğruya en kısa ipi ger. İp doğruya dik olursa en kısa yolu buldun.",
+      "en": "Stretch the shortest string from a dot to a line. It meets the line at a right angle.",
+      "pl": "Rozciągnij najkrótszy sznurek od punktu do prostej. Tworzy kąt prosty."
+    },
+    "15": {
+      "tr": "İki okun ne kadar aynı yöne baktığını ölçüyoruz. Aynı yöne bakarlarsa puan büyük olur.",
+      "en": "Measure how much two arrows face the same way. More agreement means a higher score.",
+      "pl": "Mierzymy, jak podobnie skierowane są dwie strzałki. Większa zgodność to wyższy wynik."
+    }
+  },
+  "5": {
+    "1": {
+      "tr": "İki noktanın arasına cetvel koy. Doğruyu uzatmak için aynı yönde devam et.",
+      "en": "Place a ruler through two dots. Keep moving in the same direction to draw the line.",
+      "pl": "Przyłóż linijkę do dwóch punktów i przedłuż prostą w tym samym kierunku."
+    },
+    "2": {
+      "tr": "Bir noktadan başla. Okun gösterdiği yönde birer adım at. Her adım doğru üzerinde yeni bir yer verir.",
+      "en": "Start at a point and take steps in the arrow direction. Each step gives another point on the line.",
+      "pl": "Zacznij w punkcie i idź zgodnie ze strzałką. Każdy krok daje nowy punkt prostej."
+    },
+    "3": {
+      "tr": "Masa gibi dümdüz bir yüzey düşün. Yukarı doğru duran bir ok masanın hangi yöne baktığını söyler.",
+      "en": "Imagine a flat tabletop. An arrow sticking straight out tells you its normal direction.",
+      "pl": "Wyobraź sobie blat stołu. Strzałka prostopadła do niego pokazuje kierunek normalny."
+    },
+    "4": {
+      "tr": "Üç nokta bir kağıdı sabit tutar. İki kenar yönü bulup onlara dik bir ok çiziyoruz.",
+      "en": "Three dots hold a sheet in place. Two directions on it help us find an upright arrow.",
+      "pl": "Trzy punkty wyznaczają kartkę. Dwa kierunki na niej pomagają znaleźć strzałkę prostopadłą."
+    },
+    "5": {
+      "tr": "İki yol düşün. Bir yerde buluşabilirler, yan yana gidebilirler veya farklı yüksekliklerde birbirini kaçırabilirler.",
+      "en": "Two roads can meet, run parallel, or miss each other at different heights.",
+      "pl": "Dwie drogi mogą się przeciąć, być równoległe albo minąć na różnych wysokościach."
+    },
+    "6": {
+      "tr": "İki eğik masa tablası düşün. Ne kadar farklı eğildiklerini, dik duran okları karşılaştırarak buluruz.",
+      "en": "Think of two tilted tabletops. Compare their upright arrows to measure the angle.",
+      "pl": "Pomyśl o dwóch pochylonych blatach. Porównaj ich normalne, by znaleźć kąt."
+    },
+    "7": {
+      "tr": "Bir yol bir duvarın yanından geçebilir, duvarın içinde kalabilir veya duvarı delebilir.",
+      "en": "A path may pass beside a wall, lie in it, or cross through it.",
+      "pl": "Droga może biec obok ściany, leżeć na niej albo ją przecinać."
+    },
+    "8": {
+      "tr": "Bir yolun duvarı nerede deldiğini bulmak için yolun adımlarını duvarın kuralına koyarız.",
+      "en": "To find where a road crosses a wall, put the road coordinates into the wall equation.",
+      "pl": "Aby znaleźć przecięcie drogi ze ścianą, wstaw współrzędne drogi do równania ściany."
+    },
+    "9": {
+      "tr": "Noktadan çizgiye veya duvara en kısa mesafeyi ölç. En kısa çizgi hep dik gider.",
+      "en": "Measure the shortest distance from a dot to a line or wall. The shortest path is perpendicular.",
+      "pl": "Zmierz najkrótszą drogę od punktu do prostej lub ściany. Jest prostopadła."
+    },
+    "10": {
+      "tr": "Aynadaki noktanı düşün. Önce aynaya en yakın yeri bul, sonra aynı uzaklıkta karşı tarafa geç.",
+      "en": "Imagine your reflection in a mirror: find the nearest spot, then move equally far to the other side.",
+      "pl": "Wyobraź sobie odbicie w lustrze: znajdź najbliższy punkt, potem tyle samo po drugiej stronie."
+    },
+    "11": {
+      "tr": "Bir doğru ve onun dışında bir nokta bir kağıdın nasıl duracağını belirler.",
+      "en": "A line and a dot outside it determine how a flat sheet must lie.",
+      "pl": "Prosta i punkt poza nią wyznaczają położenie płaskiej kartki."
+    },
+    "12": {
+      "tr": "İki duvarın birleştiği kenarı bulmak için ikisinin kurallarını aynı anda sağlamalıyız.",
+      "en": "The edge where two walls meet must satisfy both wall equations.",
+      "pl": "Krawędź spotkania dwóch ścian spełnia oba ich równania."
+    },
+    "13": {
+      "tr": "Bir noktadan duvara en kısa ipi çek. İpin değdiği yer duvardaki en yakın noktadır.",
+      "en": "Pull the shortest string from a dot to a wall. Its endpoint is the closest point on the wall.",
+      "pl": "Napnij najkrótszy sznurek od punktu do ściany. Koniec wskazuje najbliższy punkt."
+    },
+    "14": {
+      "tr": "Bir ok yere doğru iniyorsa yol zemine ulaşır. Ok hiç aşağı inmiyorsa yol yerden yukarıda kalabilir.",
+      "en": "If an arrow points downward, the path can reach the ground; if not, it may stay above.",
+      "pl": "Jeśli strzałka kieruje w dół, droga może dojść do ziemi; inaczej może zostać nad nią."
+    },
+    "15": {
+      "tr": "Yolun duvarla buluşması için tek bir adım sayısı buluyoruz. Hiç yoksa paralel olabilir.",
+      "en": "Find the step count where a path meets a wall. If none works, they may be parallel.",
+      "pl": "Znajdź liczbę kroków, po której droga spotka ścianę. Gdy brak takiej liczby, mogą być równoległe."
+    }
+  }
+}

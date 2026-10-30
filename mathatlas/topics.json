@@ -1,0 +1,86 @@
+[
+  {
+    "group": "Algebra",
+    "title": "Matrices and Operations",
+    "slug": "01_matrices_and_operations",
+    "exercise": "exercises/1_Algebra/01_matrices_and_operations_en.md",
+    "solutiondir": "solutions/1_Algebra/01_matrices_and_operations"
+  },
+  {
+    "group": "Algebra",
+    "title": "Determinants",
+    "slug": "02_determinants",
+    "exercise": "exercises/1_Algebra/02_determinants_en.md",
+    "solutiondir": "solutions/1_Algebra/02_determinants"
+  },
+  {
+    "group": "Algebra",
+    "title": "Matrix Inversion",
+    "slug": "03_matrix_inversion",
+    "exercise": "exercises/1_Algebra/03_matrix_inversion_en.md",
+    "solutiondir": "solutions/1_Algebra/03_matrix_inversion"
+  },
+  {
+    "group": "Algebra",
+    "title": "Systems of Equations",
+    "slug": "04_systems_of_equations",
+    "exercise": "exercises/1_Algebra/04_systems_of_equations_en.md",
+    "solutiondir": "solutions/1_Algebra/04_systems_of_equations"
+  },
+  {
+    "group": "Geometry",
+    "title": "Vectors",
+    "slug": "01_vectors",
+    "exercise": "exercises/2_Geometry/01_vectors_en.md",
+    "solutiondir": "solutions/2_Geometry/01_vectors"
+  },
+  {
+    "group": "Geometry",
+    "title": "Lines and Planes",
+    "slug": "02_lines_and_planes",
+    "exercise": "exercises/2_Geometry/02_lines_and_planes_en.md",
+    "solutiondir": "solutions/2_Geometry/02_lines_and_planes"
+  },
+  {
+    "group": "Geometry",
+    "title": "Curves and Surfaces",
+    "slug": "03_second_degree_curves_and_surfaces",
+    "exercise": "exercises/2_Geometry/03_second_degree_curves_and_surfaces_en.md",
+    "solutiondir": "solutions/2_Geometry/03_second_degree_curves_and_surfaces"
+  },
+  {
+    "group": "Calculus",
+    "title": "Limits",
+    "slug": "01_limits",
+    "exercise": "exercises/3_Calculus/01_limits_en.md",
+    "solutiondir": "solutions/3_Calculus/01_limits"
+  },
+  {
+    "group": "Calculus",
+    "title": "Derivatives",
+    "slug": "02_derivatives",
+    "exercise": "exercises/3_Calculus/02_derivatives_en.md",
+    "solutiondir": "solutions/3_Calculus/02_derivatives"
+  },
+  {
+    "group": "Calculus",
+    "title": "Function Analysis",
+    "slug": "03_function_analysis",
+    "exercise": "exercises/3_Calculus/03_function_analysis_en.md",
+    "solutiondir": "solutions/3_Calculus/03_function_analysis"
+  },
+  {
+    "group": "Calculus",
+    "title": "Integrals",
+    "slug": "04_integrals",
+    "exercise": "exercises/3_Calculus/04_integrals_en.md",
+    "solutiondir": "solutions/3_Calculus/04_integrals"
+  },
+  {
+    "group": "Calculus",
+    "title": "Applications",
+    "slug": "05_applications",
+    "exercise": "exercises/3_Calculus/05_applications_en.md",
+    "solutiondir": "solutions/3_Calculus/05_applications"
+  }
+]

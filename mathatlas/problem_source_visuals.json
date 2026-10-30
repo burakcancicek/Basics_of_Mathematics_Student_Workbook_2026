@@ -1,0 +1,565 @@
+{
+  "0-1": {
+    "title": "Matrix Size and Entries",
+    "expressions": [
+      "A=\\begin{pmatrix}2&-1&3\\\\0&4&5\\end{pmatrix},\\qquad B=\\begin{pmatrix}1&0\\\\-2&3\\\\4&1\\end{pmatrix}.",
+      "A",
+      "B",
+      "a_{12}",
+      "a_{23}",
+      "b_{21}",
+      "b_{32}",
+      "A",
+      "B"
+    ],
+    "source": "### Exercise 1. Matrix Size and Entries\nGiven\n$$A=\\begin{pmatrix}2&-1&3\\\\0&4&5\\end{pmatrix},\\qquad B=\\begin{pmatrix}1&0\\\\-2&3\\\\4&1\\end{pmatrix}.$$\n\n1. State the sizes of matrices $A$ and $B$.\n2. Read off the entries $a_{12}$, $a_{23}$, $b_{21}$, and $b_{32}$.\n3. Write the second row of $A$ and the first column of $B$ as vectors."
+  },
+  "0-2": {
+    "title": "Addition and Scalar Multiplication",
+    "expressions": [
+      "A=\\begin{pmatrix}1&2\\\\-1&3\\end{pmatrix},\\qquad B=\\begin{pmatrix}4&-2\\\\0&5\\end{pmatrix}",
+      "A+B,\\qquad A-B,\\qquad 3A-2B."
+    ],
+    "source": "### Exercise 2. Addition and Scalar Multiplication\nFor\n$$A=\\begin{pmatrix}1&2\\\\-1&3\\end{pmatrix},\\qquad B=\\begin{pmatrix}4&-2\\\\0&5\\end{pmatrix}$$\ncompute\n$$A+B,\\qquad A-B,\\qquad 3A-2B.$$\nExplain why matrix addition is possible only for matrices of the same size."
+  },
+  "0-3": {
+    "title": "When Can Matrices Be Multiplied?",
+    "expressions": [
+      "A_{2\\times3},\\qquad B_{3\\times4},\\qquad C_{4\\times2},\\qquad D_{2\\times2}.",
+      "AB,\\ BA,\\ BC,\\ CB,\\ AC,\\ CA,\\ AD,\\ DA"
+    ],
+    "source": "### Exercise 3. When Can Matrices Be Multiplied?\nThe matrix sizes are\n$$A_{2\\times3},\\qquad B_{3\\times4},\\qquad C_{4\\times2},\\qquad D_{2\\times2}.$$\nFor the products\n$$AB,\\ BA,\\ BC,\\ CB,\\ AC,\\ CA,\\ AD,\\ DA$$\ndetermine whether they are defined. If so, state the size of the result. Justify each decision using the dimension compatibility condition."
+  },
+  "0-4": {
+    "title": "Matrix Multiplication and Noncommutativity",
+    "expressions": [
+      "A=\\begin{pmatrix}1&2\\\\0&1\\end{pmatrix},\\qquad B=\\begin{pmatrix}2&0\\\\3&1\\end{pmatrix}",
+      "AB",
+      "BA",
+      "AB=BA"
+    ],
+    "source": "### Exercise 4. Matrix Multiplication and Noncommutativity\nFor\n$$A=\\begin{pmatrix}1&2\\\\0&1\\end{pmatrix},\\qquad B=\\begin{pmatrix}2&0\\\\3&1\\end{pmatrix}$$\ncompute $AB$ and $BA$. Is $AB=BA$? Use this example to explain what noncommutativity of matrix multiplication means."
+  },
+  "0-5": {
+    "title": "Matrix Times Vector",
+    "expressions": [
+      "A=\\begin{pmatrix}2&-1\\\\1&3\\end{pmatrix},\\qquad x=\\begin{pmatrix}4\\\\2\\end{pmatrix}.",
+      "Ax",
+      "Ax",
+      "A",
+      "x"
+    ],
+    "source": "### Exercise 5. Matrix Times Vector\nLet\n$$A=\\begin{pmatrix}2&-1\\\\1&3\\end{pmatrix},\\qquad x=\\begin{pmatrix}4\\\\2\\end{pmatrix}.$$\nCompute $Ax$. Then express $Ax$ as a linear combination of the columns of $A$, with coefficients coming from the vector $x$."
+  },
+  "0-6": {
+    "title": "Transpose",
+    "expressions": [
+      "A=\\begin{pmatrix}1&2&3\\\\4&5&6\\end{pmatrix},\\qquad B=\\begin{pmatrix}1&0\\\\2&1\\\\-1&3\\end{pmatrix}",
+      "A^T",
+      "B^T",
+      "AB",
+      "(AB)^T=B^TA^T."
+    ],
+    "source": "### Exercise 6. Transpose\nFor\n$$A=\\begin{pmatrix}1&2&3\\\\4&5&6\\end{pmatrix},\\qquad B=\\begin{pmatrix}1&0\\\\2&1\\\\-1&3\\end{pmatrix}$$\ncompute $A^T$, $B^T$, and $AB$. Then verify in this example that\n$$(AB)^T=B^TA^T.$$"
+  },
+  "0-7": {
+    "title": "Identity Matrix, Zero Matrix, and Powers",
+    "expressions": [
+      "A=\\begin{pmatrix}2&1\\\\0&2\\end{pmatrix}",
+      "AI,\\qquad IA,\\qquad A+0,\\qquad A^2,\\qquad A^3.",
+      "I",
+      "0",
+      "A"
+    ],
+    "source": "### Exercise 7. Identity Matrix, Zero Matrix, and Powers\nFor\n$$A=\\begin{pmatrix}2&1\\\\0&2\\end{pmatrix}$$\ncompute\n$$AI,\\qquad IA,\\qquad A+0,\\qquad A^2,\\qquad A^3.$$\nExplain the roles of the matrices $I$ and $0$, and describe the pattern you observe in successive powers of $A$."
+  },
+  "0-8": {
+    "title": "Row Operations and Their Reversibility",
+    "expressions": [
+      "A=\\begin{pmatrix}1&2&-1\\\\2&4&1\\\\-1&1&3\\end{pmatrix}",
+      "R_2\\leftarrow R_2-2R_1",
+      "R_3\\leftarrow R_3+R_1",
+      "R_2",
+      "R_3"
+    ],
+    "source": "### Exercise 8. Row Operations and Their Reversibility\nFor\n$$A=\\begin{pmatrix}1&2&-1\\\\2&4&1\\\\-1&1&3\\end{pmatrix}$$\nperform, in order:\n1. $R_2\\leftarrow R_2-2R_1$,\n2. $R_3\\leftarrow R_3+R_1$,\n3. interchange $R_2$ and $R_3$.\n\nWrite the matrix after each step. Then, for each of the three operations, state an operation that reverses it."
+  },
+  "0-9": {
+    "title": "Composing Transformations",
+    "expressions": [
+      "S=\\begin{pmatrix}2&0\\\\0&1\\end{pmatrix},\\qquad R=\\begin{pmatrix}0&-1\\\\1&0\\end{pmatrix}.",
+      "S",
+      "R",
+      "90^\\circ",
+      "x=\\begin{pmatrix}1\\\\2\\end{pmatrix}",
+      "RSx",
+      "SRx"
+    ],
+    "source": "### Exercise 9. Composing Transformations\nLet\n$$S=\\begin{pmatrix}2&0\\\\0&1\\end{pmatrix},\\qquad R=\\begin{pmatrix}0&-1\\\\1&0\\end{pmatrix}.$$\nThe matrix $S$ describes nonuniform scaling, while $R$ describes a $90^\\circ$ counterclockwise rotation.\nFor\n$$x=\\begin{pmatrix}1\\\\2\\end{pmatrix}$$\ncompute $RSx$ and $SRx$. Compare the results and explain geometrically why the order of these transformations matters."
+  },
+  "0-10": {
+    "title": "Columns of a Matrix Product",
+    "expressions": [
+      "A=\\begin{pmatrix}1&2&0\\\\0&1&1\\end{pmatrix},\\qquad B=\\begin{pmatrix}1&2\\\\-1&0\\\\3&1\\end{pmatrix}.",
+      "B",
+      "b_1,b_2",
+      "Ab_1",
+      "Ab_2",
+      "AB",
+      "AB",
+      "Ab_1",
+      "Ab_2",
+      "Ax"
+    ],
+    "source": "### Exercise 10. Columns of a Matrix Product\nGiven\n$$A=\\begin{pmatrix}1&2&0\\\\0&1&1\\end{pmatrix},\\qquad B=\\begin{pmatrix}1&2\\\\-1&0\\\\3&1\\end{pmatrix}.$$\nDenote the columns of $B$ by $b_1,b_2$.\n\n1. Compute $Ab_1$ and $Ab_2$.\n2. Compute the matrix $AB$.\n3. Compare the results and explain why the columns of $AB$ are exactly the vectors $Ab_1$ and $Ab_2$."
+  },
+  "0-11": {
+    "title": "When Do Matrices Commute?",
+    "expressions": [
+      "A=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix},\\qquad B=\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}.",
+      "a,b,c,d",
+      "AB=BA",
+      "B"
+    ],
+    "source": "### Exercise 11. When Do Matrices Commute?\nGiven\n$$A=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix},\\qquad B=\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}.$$\nFind the conditions on $a,b,c,d$ under which $AB=BA$. Describe the general form of all such matrices $B$."
+  },
+  "0-12": {
+    "title": "Formula for a Matrix Power",
+    "expressions": [
+      "A=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}.",
+      "A^2",
+      "A^3",
+      "A^4",
+      "A^n",
+      "n",
+      "A",
+      "n+1"
+    ],
+    "source": "### Exercise 12. Formula for a Matrix Power\nLet\n$$A=\\begin{pmatrix}1&1\\\\0&1\\end{pmatrix}.$$\nCompute $A^2$, $A^3$, and $A^4$, and use them to formulate a conjecture for $A^n$. Then do not stop after checking one more case: assume the formula is true for $n$, multiply by $A$, and explain why you obtain exactly the formula for $n+1$."
+  },
+  "0-13": {
+    "title": "A Recurrence Written in Matrix Form",
+    "expressions": [
+      "F=\\begin{pmatrix}1&1\\\\1&0\\end{pmatrix}.",
+      "F^2",
+      "F^3",
+      "F^4",
+      "F^5",
+      "0,1,1,2,3,5,8,\\ldots",
+      "F\\begin{pmatrix}a\\\\b\\end{pmatrix}"
+    ],
+    "source": "### Exercise 13. A Recurrence Written in Matrix Form\nLet\n$$F=\\begin{pmatrix}1&1\\\\1&0\\end{pmatrix}.$$\nCompute $F^2$, $F^3$, $F^4$, and $F^5$. Compare the numbers obtained with the sequence\n$$0,1,1,2,3,5,8,\\ldots$$\nand describe the relationship you observe. Then compute\n$$F\\begin{pmatrix}a\\\\b\\end{pmatrix}$$\nand explain how this multiplication performs one recurrence step: it creates the sum of two consecutive terms and keeps one of them for the next step."
+  },
+  "0-14": {
+    "title": "Rotation Matrices",
+    "expressions": [
+      "\\theta",
+      "R(\\theta)=\\begin{pmatrix}\\cos\\theta&-\\sin\\theta\\\\\\sin\\theta&\\cos\\theta\\end{pmatrix}.",
+      "R(\\alpha)R(\\beta)",
+      "R(\\alpha)R(\\beta)=R(\\alpha+\\beta)."
+    ],
+    "source": "### Exercise 14. Rotation Matrices\nThe matrix for a rotation through an angle $\\theta$ is\n$$R(\\theta)=\\begin{pmatrix}\\cos\\theta&-\\sin\\theta\\\\\\sin\\theta&\\cos\\theta\\end{pmatrix}.$$\nCompute $R(\\alpha)R(\\beta)$ and, using the angle-sum formulas for sine and cosine, show that\n$$R(\\alpha)R(\\beta)=R(\\alpha+\\beta).$$\nExplain the result geometrically."
+  },
+  "0-15": {
+    "title": "Associativity of Multiplication and Different Calculation Paths",
+    "expressions": [
+      "A=\\begin{pmatrix}1&2&0\\\\0&1&1\\end{pmatrix},\\quad B=\\begin{pmatrix}1&0\\\\2&1\\\\-1&3\\end{pmatrix},\\quad C=\\begin{pmatrix}2&1\\\\0&-1\\end{pmatrix}.",
+      "(AB)C",
+      "A(BC)"
+    ],
+    "source": "### Exercise 15. Associativity of Multiplication and Different Calculation Paths\nGiven\n$$A=\\begin{pmatrix}1&2&0\\\\0&1&1\\end{pmatrix},\\quad B=\\begin{pmatrix}1&0\\\\2&1\\\\-1&3\\end{pmatrix},\\quad C=\\begin{pmatrix}2&1\\\\0&-1\\end{pmatrix}.$$\nCompute $(AB)C$ and $A(BC)$. Compare the results and the number of intermediate operations. Explain what associativity of matrix multiplication means in this example."
+  },
+  "4-1": {
+    "title": "Vector Operations and Their Meaning",
+    "expressions": [
+      "u=(2,-1,3)",
+      "v=(-1,4,2)",
+      "u+v,\\qquad u-v,\\qquad 3u-2v.",
+      "(u+v)-v=u"
+    ],
+    "source": "### Exercise 1. Vector Operations and Their Meaning\nFor $u=(2,-1,3)$ and $v=(-1,4,2)$ compute\n$$u+v,\\qquad u-v,\\qquad 3u-2v.$$\nThen verify that $(u+v)-v=u$, and explain geometrically what adding two vectors means."
+  },
+  "4-2": {
+    "title": "Distance as the Length of a Vector",
+    "expressions": [
+      "A=(1,2,3)",
+      "B=(4,-2,6)",
+      "\\overrightarrow{AB}"
+    ],
+    "source": "### Exercise 2. Distance as the Length of a Vector\nThe points are $A=(1,2,3)$ and $B=(4,-2,6)$.\n\n1. Construct $\\overrightarrow{AB}$.\n2. Compute its length.\n3. Compute the distance between the points using the coordinate formula.\n4. Explain why both calculations give the same result."
+  },
+  "4-3": {
+    "title": "Vector Normalization",
+    "expressions": [
+      "v=(3,4)",
+      "e",
+      "\\|e\\|=1",
+      "v",
+      "v=\\|v\\|e"
+    ],
+    "source": "### Exercise 3. Vector Normalization\nFor $v=(3,4)$ find a unit vector $e$ with the same direction and orientation. Check that $\\|e\\|=1$, reconstruct $v$ in the form $v=\\|v\\|e$, and explain what changes during normalization and what remains unchanged."
+  },
+  "4-4": {
+    "title": "Dot Product and Perpendicularity",
+    "expressions": [
+      "u=(1,2,-1)",
+      "v=(2,-1,3)",
+      "u\\cdot v",
+      "a",
+      "w=(2,-1,a)",
+      "u"
+    ],
+    "source": "### Exercise 4. Dot Product and Perpendicularity\nFor $u=(1,2,-1)$ and $v=(2,-1,3)$ compute $u\\cdot v$ and determine whether the vectors are perpendicular. Then find $a$ so that $w=(2,-1,a)$ is perpendicular to $u$, and check the result."
+  },
+  "4-5": {
+    "title": "Angle Between Vectors",
+    "expressions": [
+      "u=(1,1,0)",
+      "v=(1,0,1)",
+      "u\\cdot v"
+    ],
+    "source": "### Exercise 5. Angle Between Vectors\nGiven $u=(1,1,0)$ and $v=(1,0,1)$:\n\n1. Use the sign of $u\\cdot v$ to predict the type of angle.\n2. Compute the angle.\n3. Compare the result with the prediction."
+  },
+  "4-6": {
+    "title": "Projection and Perpendicular Component",
+    "expressions": [
+      "u=(4,2)",
+      "v=(1,1)",
+      "r=u-\\operatorname{proj}_v u",
+      "r\\cdot v=0"
+    ],
+    "source": "### Exercise 6. Projection and Perpendicular Component\nFind the projection of $u=(4,2)$ onto the direction $v=(1,1)$. Then compute\n$$r=u-\\operatorname{proj}_v u$$\nand verify that $r\\cdot v=0$. Explain this result geometrically."
+  },
+  "4-7": {
+    "title": "Linear Dependence Without Heavy Computation",
+    "expressions": [
+      "u=(1,2,3),\\qquad v=(2,4,6),\\qquad w=(0,1,1).",
+      "u",
+      "v"
+    ],
+    "source": "### Exercise 7. Linear Dependence Without Heavy Computation\nGiven\n$$u=(1,2,3),\\qquad v=(2,4,6),\\qquad w=(0,1,1).$$\nIdentify a specific relation between $u$ and $v$, decide whether the three vectors can be linearly independent, and explain why no long calculation is needed."
+  },
+  "4-8": {
+    "title": "Linear Combination and Checking the Result",
+    "expressions": [
+      "w=(5,1)",
+      "w=au+bv,",
+      "u=(1,1)",
+      "v=(2,-1)",
+      "a,b",
+      "w"
+    ],
+    "source": "### Exercise 8. Linear Combination and Checking the Result\nCheck whether $w=(5,1)$ can be written as\n$$w=au+bv,$$\nwhere $u=(1,1)$ and $v=(2,-1)$. If so, find $a,b$, reconstruct $w$ from them, and explain the geometric meaning of the existence of such coefficients."
+  },
+  "4-9": {
+    "title": "Cross Product as a Perpendicular Direction",
+    "expressions": [
+      "u=(1,2,0)",
+      "v=(0,1,3)",
+      "u\\times v",
+      "v\\times u"
+    ],
+    "source": "### Exercise 9. Cross Product as a Perpendicular Direction\nFor $u=(1,2,0)$ and $v=(0,1,3)$ compute $u\\times v$. Use dot products to check perpendicularity to both vectors, compute $v\\times u$, and compare the results."
+  },
+  "4-10": {
+    "title": "Triangle Area from Vectors",
+    "expressions": [
+      "A=(0,0,0)",
+      "B=(2,1,0)",
+      "C=(1,3,2)",
+      "\\overrightarrow{AB}",
+      "\\overrightarrow{AC}",
+      "\\frac12"
+    ],
+    "source": "### Exercise 10. Triangle Area from Vectors\nThe points $A=(0,0,0)$, $B=(2,1,0)$, and $C=(1,3,2)$ form a triangle. Construct $\\overrightarrow{AB}$ and $\\overrightarrow{AC}$, compute the area of the parallelogram using the cross product, and then find the area of the triangle. Explain the factor $\\frac12$."
+  },
+  "4-11": {
+    "title": "Decomposition into Parallel and Perpendicular Components",
+    "expressions": [
+      "u=(3,4)",
+      "v=(1,2)",
+      "u=u_{\\parallel}+u_{\\perp},\\qquad u_{\\perp}\\cdot v=0."
+    ],
+    "source": "### Exercise 11. Decomposition into Parallel and Perpendicular Components\nDecompose $u=(3,4)$ into components parallel and perpendicular to $v=(1,2)$. Check\n$$u=u_{\\parallel}+u_{\\perp},\\qquad u_{\\perp}\\cdot v=0.$$\nExplain why these are two independent checks of correctness."
+  },
+  "4-12": {
+    "title": "A Normal Vector to a Plane",
+    "expressions": [
+      "A=(1,0,2)",
+      "B=(2,1,0)",
+      "C=(0,3,1)"
+    ],
+    "source": "### Exercise 12. A Normal Vector to a Plane\nGiven $A=(1,0,2)$, $B=(2,1,0)$, and $C=(0,3,1)$. Construct two vectors lying in the plane, find a vector perpendicular to both, and check the perpendicularity using dot products."
+  },
+  "4-13": {
+    "title": "Do Four Points Lie in One Plane?",
+    "expressions": [
+      "A=(0,0,0),\\qquad B=(1,2,0),\\qquad C=(0,1,1),\\qquad D=(2,5,1).",
+      "\\overrightarrow{AB}",
+      "\\overrightarrow{AC}",
+      "n=\\overrightarrow{AB}\\times\\overrightarrow{AC}",
+      "\\overrightarrow{AD}",
+      "\\overrightarrow{AD}\\cdot n=0",
+      "D",
+      "A,B,C"
+    ],
+    "source": "### Exercise 13. Do Four Points Lie in One Plane?\nGiven\n$$A=(0,0,0),\\qquad B=(1,2,0),\\qquad C=(0,1,1),\\qquad D=(2,5,1).$$\n\n1. Construct $\\overrightarrow{AB}$ and $\\overrightarrow{AC}$.\n2. Find $n=\\overrightarrow{AB}\\times\\overrightarrow{AC}$.\n3. Construct $\\overrightarrow{AD}$ and check whether $\\overrightarrow{AD}\\cdot n=0$.\n4. Based on this, decide whether $D$ lies in the plane determined by $A,B,C$, and justify the criterion."
+  },
+  "4-14": {
+    "title": "Closest Point on a Line",
+    "expressions": [
+      "P=(4,1)",
+      "v=(1,2)",
+      "P"
+    ],
+    "source": "### Exercise 14. Closest Point on a Line\nGiven a point $P=(4,1)$ and a line through the origin with direction $v=(1,2)$. Using projection, find the closest point on the line, the distance from $P$ to the line, and verify that the appropriate vector is perpendicular to the direction of the line."
+  },
+  "4-15": {
+    "title": "Comparing Directions Using the Cosine of the Angle",
+    "expressions": [
+      "a=(1,2,1),\\qquad b=(2,4,2),\\qquad c=(2,0,3).",
+      "\\frac{u\\cdot v}{\\|u\\|\\,\\|v\\|}.",
+      "a",
+      "b",
+      "1"
+    ],
+    "source": "### Exercise 15. Comparing Directions Using the Cosine of the Angle\nGiven\n$$a=(1,2,1),\\qquad b=(2,4,2),\\qquad c=(2,0,3).$$\nFor each pair, compute\n$$\\frac{u\\cdot v}{\\|u\\|\\,\\|v\\|}.$$\nOrder the pairs by increasing angle between the vectors. Explain why for $a$ and $b$ the value is $1$ even though the vectors have different lengths."
+  },
+  "5-1": {
+    "title": "Line Through Two Points",
+    "expressions": [
+      "A=(1,2)",
+      "B=(4,-1)"
+    ],
+    "source": "### Exercise 1. Line Through Two Points\nFind the equation of the line through $A=(1,2)$ and $B=(4,-1)$ in parametric and general form. Identify a direction vector and an example of a normal vector. Check that both points satisfy the equation you obtain."
+  },
+  "5-2": {
+    "title": "A Line in Space",
+    "expressions": [
+      "L:(x,y,z)=(2,-1,3)+t(1,2,-2).",
+      "P=(4,3,-1)",
+      "L",
+      "t=-1"
+    ],
+    "source": "### Exercise 2. A Line in Space\nGiven\n$$L:(x,y,z)=(2,-1,3)+t(1,2,-2).$$\nState a point on the line and its direction vector, check whether $P=(4,3,-1)$ lies on $L$, and find the point corresponding to $t=-1$."
+  },
+  "5-3": {
+    "title": "Plane Through a Point with a Given Normal Vector",
+    "expressions": [
+      "P=(1,-2,3)",
+      "n=(2,1,-1)",
+      "P"
+    ],
+    "source": "### Exercise 3. Plane Through a Point with a Given Normal Vector\nFind the equation of the plane through $P=(1,-2,3)$ and perpendicular to $n=(2,1,-1)$. Check the result by substituting the point $P$ and explain the role of the normal vector."
+  },
+  "5-4": {
+    "title": "Plane Through Three Points",
+    "expressions": [
+      "A=(1,0,0),\\quad B=(0,1,0),\\quad C=(0,0,1)."
+    ],
+    "source": "### Exercise 4. Plane Through Three Points\nFind the equation of the plane through\n$$A=(1,0,0),\\quad B=(0,1,0),\\quad C=(0,0,1).$$\nFirst construct two vectors lying in the plane, and then use the cross product. Check the resulting equation on all three points."
+  },
+  "5-5": {
+    "title": "Relative Position of Two Lines",
+    "expressions": [
+      "L_1:(x,y,z)=(1,1,0)+t(1,2,1),",
+      "L_2:(x,y,z)=(2,0,1)+s(0,1,-1)."
+    ],
+    "source": "### Exercise 5. Relative Position of Two Lines\nAnalyze the position of\n$$L_1:(x,y,z)=(1,1,0)+t(1,2,1),$$\n$$L_2:(x,y,z)=(2,0,1)+s(0,1,-1).$$\nIf they intersect, give the intersection point. If not, determine whether they are parallel or skew. Justify the classification."
+  },
+  "5-6": {
+    "title": "Angle Between Planes",
+    "expressions": [
+      "\\Pi_1:x+y+z=1,\\qquad \\Pi_2:x-y=2."
+    ],
+    "source": "### Exercise 6. Angle Between Planes\nGiven\n$$\\Pi_1:x+y+z=1,\\qquad \\Pi_2:x-y=2.$$\nFirst use the normal vectors to decide whether the planes are parallel. If not, compute the angle between them and explain why the normal vectors alone are enough for this calculation."
+  },
+  "5-7": {
+    "title": "A Line Relative to a Plane",
+    "expressions": [
+      "L:(x,y,z)=(1,1,0)+t(1,-1,0),\\qquad \\Pi:x+y+z=2,"
+    ],
+    "source": "### Exercise 7. A Line Relative to a Plane\nFor\n$$L:(x,y,z)=(1,1,0)+t(1,-1,0),\\qquad \\Pi:x+y+z=2,$$\ndetermine whether the line intersects the plane at one point, is parallel to it, or lies in it. Explain the role of the dot product of the direction vector and the normal vector."
+  },
+  "5-8": {
+    "title": "Intersection Point of a Line and a Plane",
+    "expressions": [
+      "(x,y,z)=(1,0,2)+t(1,2,-1)",
+      "x+y+z=4"
+    ],
+    "source": "### Exercise 8. Intersection Point of a Line and a Plane\nFind the intersection point of\n$$(x,y,z)=(1,0,2)+t(1,2,-1)$$\nwith the plane $x+y+z=4$. Check the result by substituting it into both descriptions."
+  },
+  "5-9": {
+    "title": "Distances",
+    "expressions": [
+      "P=(2,3)",
+      "3x+4y-10=0",
+      "Q=(2,-1,3)",
+      "2x-2y+z-4=0"
+    ],
+    "source": "### Exercise 9. Distances\nCompute:\n1. the distance from $P=(2,3)$ to the line $3x+4y-10=0$,\n2. the distance from $Q=(2,-1,3)$ to the plane $2x-2y+z-4=0$.\n\nCompare the two formulas and explain their common connection with the normal direction."
+  },
+  "5-10": {
+    "title": "Projection of a Point onto a Plane",
+    "expressions": [
+      "P=(2,1,3)",
+      "x+y+z=3",
+      "P"
+    ],
+    "source": "### Exercise 10. Projection of a Point onto a Plane\nFind the orthogonal projection of $P=(2,1,3)$ onto the plane $x+y+z=3$, and then find the reflection of $P$ across this plane. Check that the midpoint of the segment joining the point and its reflection lies on the plane."
+  },
+  "5-11": {
+    "title": "Plane Containing a Line and a Point",
+    "expressions": [
+      "(x,y,z)=(1,0,2)+t(1,1,-1)",
+      "P=(0,2,1)"
+    ],
+    "source": "### Exercise 11. Plane Containing a Line and a Point\nFind the equation of the plane containing\n$$(x,y,z)=(1,0,2)+t(1,1,-1)$$\nand the point $P=(0,2,1)$. Check that both the entire line and the point lie in the plane you obtain."
+  },
+  "5-12": {
+    "title": "Intersection Line of Two Planes",
+    "expressions": [
+      "x+y+z=3,\\qquad x-y+z=1."
+    ],
+    "source": "### Exercise 12. Intersection Line of Two Planes\nFind a parametric equation of the line that is the intersection of\n$$x+y+z=3,\\qquad x-y+z=1.$$\nFind its direction vector in two ways: from the system of equations and from the cross product of the normal vectors. Compare the results."
+  },
+  "5-13": {
+    "title": "Closest Point on a Plane",
+    "expressions": [
+      "x+2y+2z=4",
+      "P=(3,0,0)"
+    ],
+    "source": "### Exercise 13. Closest Point on a Plane\nFind the point on the plane $x+2y+2z=4$ closest to $P=(3,0,0)$. Give the distance and check that the segment joining the two points is perpendicular to the plane."
+  },
+  "5-14": {
+    "title": "Contrast: Intersection and Parallelism",
+    "expressions": [
+      "P=(0,0,1)",
+      "v_1=(2,1,-1),\\qquad v_2=(2,1,0).",
+      "z=0"
+    ],
+    "source": "### Exercise 14. Contrast: Intersection and Parallelism\nFrom the point $P=(0,0,1)$, two lines are drawn with direction vectors\n$$v_1=(2,1,-1),\\qquad v_2=(2,1,0).$$\nFor each line, analyze its position relative to the plane $z=0$.\n\nFor the line that intersects the plane, find the intersection point. For the other line, explain how you can recognize parallelism without solving an equation."
+  },
+  "5-15": {
+    "title": "Complete Classification of a Line Relative to a Plane",
+    "expressions": [
+      "L:p+tv,\\qquad \\Pi:n\\cdot x=d."
+    ],
+    "source": "### Exercise 15. Complete Classification of a Line Relative to a Plane\nLet\n$$L:p+tv,\\qquad \\Pi:n\\cdot x=d.$$\nState the conditions distinguishing the three cases: one intersection point, parallel with no common points, and the line contained in the plane. Then illustrate each case with your own simple numerical example."
+  },
+  "7-1": {
+    "title": "Dominant Terms in a Sequence",
+    "expressions": [
+      "\\lim_{n\\to\\infty}\\frac{4n^2-3n+1}{2n^2+5n-7}."
+    ],
+    "source": "### Exercise 1. Dominant Terms in a Sequence\nCompute\n$$\\lim_{n\\to\\infty}\\frac{4n^2-3n+1}{2n^2+5n-7}.$$\nExplain why the highest-degree terms determine the result."
+  },
+  "7-2": {
+    "title": "Different Growth Rates",
+    "expressions": [
+      "\\lim_{n\\to\\infty}\\frac{3n+1}{n^2+4},\\qquad \\lim_{n\\to\\infty}\\frac{2n^3-n}{5n^2+1}."
+    ],
+    "source": "### Exercise 2. Different Growth Rates\nCompute\n$$\\lim_{n\\to\\infty}\\frac{3n+1}{n^2+4},\\qquad \\lim_{n\\to\\infty}\\frac{2n^3-n}{5n^2+1}.$$\nCompare the two cases and formulate a general observation about the degrees of the polynomials in the numerator and denominator."
+  },
+  "7-3": {
+    "title": "A Square Root and Removing an Indeterminate Form",
+    "expressions": [
+      "\\lim_{n\\to\\infty}\\left(\\sqrt{n^2+5n}-n\\right)."
+    ],
+    "source": "### Exercise 3. A Square Root and Removing an Indeterminate Form\nCompute\n$$\\lim_{n\\to\\infty}\\left(\\sqrt{n^2+5n}-n\\right).$$\nUse the conjugate expression and explain why this transformation removes the difficulty."
+  },
+  "7-4": {
+    "title": "Powers and Oscillation",
+    "expressions": [
+      "\\left(\\frac23\\right)^n,\\qquad \\left(\\frac32\\right)^n,\\qquad (-1)^n,\\qquad \\frac{(-1)^n}{n}."
+    ],
+    "source": "### Exercise 4. Powers and Oscillation\nAnalyze\n$$\\left(\\frac23\\right)^n,\\qquad \\left(\\frac32\\right)^n,\\qquad (-1)^n,\\qquad \\frac{(-1)^n}{n}.$$\nFor each sequence, describe the type of behavior and justify your answer."
+  },
+  "7-5": {
+    "title": "The Classical Limit Leading to the Number $e$",
+    "expressions": [
+      "e",
+      "\\lim_{n\\to\\infty}\\left(1+\\frac1n\\right)^n.",
+      "n"
+    ],
+    "source": "### Exercise 5. The Classical Limit Leading to the Number $e$\nCompute\n$$\\lim_{n\\to\\infty}\\left(1+\\frac1n\\right)^n.$$\nCalculate several values for increasing $n$ and compare the observed behavior with the value of the limit. Explain why a few values do not constitute a proof."
+  },
+  "7-6": {
+    "title": "From a Sequence to a Function — Limit at Infinity",
+    "expressions": [
+      "\\lim_{x\\to\\infty}\\frac{3x^2-x+1}{5x^2+4x-2}.",
+      "n",
+      "x"
+    ],
+    "source": "### Exercise 6. From a Sequence to a Function — Limit at Infinity\nCompute\n$$\\lim_{x\\to\\infty}\\frac{3x^2-x+1}{5x^2+4x-2}.$$\nCompare the method with Exercise 1. Explain what changes when moving from $n$ to a real variable $x$, and what stays the same."
+  },
+  "7-7": {
+    "title": "Limit at a Point and Canceling a Factor",
+    "expressions": [
+      "\\lim_{x\\to3}\\frac{x^2-4x+3}{x-3}.",
+      "x=3"
+    ],
+    "source": "### Exercise 7. Limit at a Point and Canceling a Factor\nCompute\n$$\\lim_{x\\to3}\\frac{x^2-4x+3}{x-3}.$$\nExplain why the value of the function at $x=3$ is not needed to compute the limit."
+  },
+  "7-8": {
+    "title": "A Square Root in a Function Limit",
+    "expressions": [
+      "\\lim_{x\\to4}\\frac{\\sqrt{x}-2}{x-4}"
+    ],
+    "source": "### Exercise 8. A Square Root in a Function Limit\nCompute\n$$\\lim_{x\\to4}\\frac{\\sqrt{x}-2}{x-4}$$\nby rationalizing the numerator. Compare the idea with Exercise 3 involving a sequence."
+  },
+  "7-9": {
+    "title": "One-Sided Limits and an Asymptote",
+    "expressions": [
+      "f(x)=\\frac1{x-2}",
+      "x\\to2"
+    ],
+    "source": "### Exercise 9. One-Sided Limits and an Asymptote\nAnalyze the left-hand and right-hand limits of\n$$f(x)=\\frac1{x-2}$$\nas $x\\to2$. Does the two-sided limit exist? Interpret the result on a sketch of the graph and identify the vertical asymptote."
+  },
+  "7-10": {
+    "title": "Continuity of a Piecewise Function",
+    "expressions": [
+      "a",
+      "f(x)=\\begin{cases}ax+1,&x<2,\\\\x^2-1,&x\\ge2\\end{cases}",
+      "x=2"
+    ],
+    "source": "### Exercise 10. Continuity of a Piecewise Function\nFind $a$ so that\n$$f(x)=\\begin{cases}ax+1,&x<2,\\\\x^2-1,&x\\ge2\\end{cases}$$\nis continuous at $x=2$. Explicitly compare the left-hand limit, right-hand limit, and function value."
+  },
+  "7-11": {
+    "title": "An n-th Root",
+    "expressions": [
+      "\\lim_{n\\to\\infty}\\sqrt[n]{5^n+2^n}."
+    ],
+    "source": "### Exercise 11. An n-th Root\nCompute\n$$\\lim_{n\\to\\infty}\\sqrt[n]{5^n+2^n}.$$\nExplain which term dominates and why the transformation looks different from the case of a quotient of polynomials."
+  },
+  "7-12": {
+    "title": "Exponential Function Limit",
+    "expressions": [
+      "\\lim_{x\\to0}(1+3x)^{1/x}."
+    ],
+    "source": "### Exercise 12. Exponential Function Limit\nCompute\n$$\\lim_{x\\to0}(1+3x)^{1/x}.$$\nConnect the result with the limit from Exercise 5 and show the appropriate transformation."
+  },
+  "7-13": {
+    "title": "Fundamental Trigonometric Limit",
+    "expressions": [
+      "\\lim_{x\\to0}\\frac{\\sin x}{x}=1,",
+      "\\lim_{x\\to0}\\frac{\\sin5x}{x},\\qquad \\lim_{x\\to0}\\frac{\\sin2x}{\\sin3x}."
+    ],
+    "source": "### Exercise 13. Fundamental Trigonometric Limit\nUsing\n$$\\lim_{x\\to0}\\frac{\\sin x}{x}=1,$$\ncompute\n$$\\lim_{x\\to0}\\frac{\\sin5x}{x},\\qquad \\lim_{x\\to0}\\frac{\\sin2x}{\\sin3x}.$$\nIn each case, show how you reduce the expression to the fundamental limit."
+  },
+  "7-14": {
+    "title": "A $0/0$ Limit with Trigonometry",
+    "expressions": [
+      "0/0",
+      "\\lim_{x\\to0}\\frac{1-\\cos x}{x^2}."
+    ],
+    "source": "### Exercise 14. A $0/0$ Limit with Trigonometry\nCompute\n$$\\lim_{x\\to0}\\frac{1-\\cos x}{x^2}.$$\nJustify the result without using l'Hôpital's rule, using a trigonometric identity and the fundamental limit."
+  },
+  "7-15": {
+    "title": "Observation Versus Proof",
+    "expressions": [
+      "n"
+    ],
+    "source": "### Exercise 15. Observation Versus Proof\nChoose one sequence and one function from this set. For the sequence, compute several values for increasingly large $n$. For the function, prepare a table of values with arguments approaching the limit point from the left and right. Sketch the behavior of both objects.\n\nCompare the observation with the analytical result and explain why a finite number of calculations or a sketch does not constitute a proof that the limit exists."
+  }
+}
